@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="numbaseball.css">
+
+</head>
+<body>
+  <div class="joinAll">
+  <div id="number">
+  </div>
+  <div class="radioBtn">
+    <input id="digit3" name="selectDigit" type="radio" value="3" checked><label for="digit3">3자리</label>
+    <input id="digit4" name="selectDigit" type="radio" value="4"><label for="digit4">4자리</label>
+  </div>
+  <div>
+    <button id="start">게임 시작</button>
+  </div>
+  <div id="startText">Game Start!</div>
+  <div id="inputSet">
+    <div id="inform">Guess Number :)</div>
+    <input id="input" type="text" placeholder="입력">
+    <button id="submit" type="button">확인</button>
+    </div>
+  </div>  
+  <!-- <div class="printResult" id="result"></div> -->
+</div>
+<table id='result'>
+  <!-- <table style="border: 1px solid red; width:60%; height: 100px; margin: auto; text-align: center;"> -->
+  <tr>
+    <th style="width: 15%; background-color:darkgray;">순서</th>
+    <th style="width: 30%; background-color:darkgray;">숫자</th>
+    <th style="background-color:darkgray;">결과</th>
+  </tr>
+</table>
+</body>
+<script src="numbaseball.js"></script>
+</html>
