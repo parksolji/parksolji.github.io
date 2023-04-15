@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="baseball.css">
+
+</head>
+<body style="background-color: rgb(243, 255, 251);">
+  <div class="joinAll">
+  <div id="number">
+  </div>
+  <div class="radioBtn">
+    <input id="digit3" name="selectDigit" type="radio" value="3" checked><label for="digit3">3자리</label>
+    <input id="digit4" name="selectDigit" type="radio" value="4"><label for="digit4">4자리</label>
+  </div>
+  <div>
+    <button id="start">START</button>
+  </div>
+  <div id="startText">Game Start!</div>
+  <div id="inputSet">
+    <div id="inform">Guess Number :)</div>
+    <input id="input" type="number" min='1' placeholder="ex) 123">
+    <button id="submit" type="button">확인</button>
+    </div>
+  
+  <!-- <div class="printResult" id="result"></div> -->
+
+<table id='result'>
+  <!-- <table style="border: 1px solid red; width:60%; height: 100px; margin: auto; text-align: center;"> -->
+  <tr>
+    <th style="width: 15%; background-color:rgb(129, 194, 111);">순서</th>
+    <th style="width: 30%; background-color:rgb(129, 194, 111);">숫자</th>
+    <th style="background-color:rgb(129, 194, 111);">결과</th>
+  </tr>
+</table>
+  <button id="restart" type="reset">RESTART</button>
+</div>
+</body>
+<script src="baseball.js"></script>
+</html>
