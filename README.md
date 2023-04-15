@@ -1,1 +1,0 @@
-# parksolji.github.io
