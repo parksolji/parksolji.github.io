@@ -1,5 +1,5 @@
 .radioBtn{
-  padding: 15px 10px;
+  padding: 25px 20px;
 }
 .radioBtn input[type=radio]{
   display:none;
@@ -9,7 +9,7 @@
   cursor: pointer;
   height: 24px;
   width: 90px;
-  border: 1px solid #333;
+  border: 1px solid #333333;
   line-height: 24px;
   text-align: center;
   font-weight:bold;
@@ -17,22 +17,26 @@
 }
 .radioBtn input[type=radio]+label{
   background-color: #fff;
-  color: #333;
+  color: #333333;
 }
 .radioBtn input[type=radio]:checked+label{
-  background-color: #333;
+  background-color: #3cd65d;
   color: #fff;
 }
 #start{
-  padding: 15px 10px;
+  margin-top: 20px;
+  padding: 15px 30px;
   /* position: relative;
   left:10px; */
   text-align: center;
   font-weight:bolder;
-  font-size:30px;
-  background-color: #e6ff78;
-  border: 1px solid #6f6f6f;
+  font-size:20px;
+  background-color: #ff3434;
+  border: 2px solid #6f6f6f;
   cursor: pointer;
+  color: #403f3f;
+  border-radius: 50px;
+  box-shadow: 2px 2px 2px gray;
 }
 
 #input{
@@ -49,7 +53,7 @@
   text-align: center;
   font-weight:bold;
   font-size:13px;
-  background-color: #b7ff78;
+  background-color: #fbfb66;
   border: 1px solid #6f6f6f;
   cursor: pointer;
 }
@@ -83,35 +87,52 @@
   display: none;
 } */
 table{
-  display: inline-flex;
-  justify-content: center;
   margin-left:auto;
   margin-right:auto;
-  margin-top: 30px;
+  margin-top: 20px;
   display: none;
 }
 
 table, td, th {
-  width: 300px;
+  width: 350px;
   margin-left:auto;
   margin-right:auto;
   border-collapse : collapse;
   border : 1px solid black;
   text-align: center;
 };
-th{
-background-color: #bedebe;
-}
+
 th, td {
   text-align: center;
 }
 
 #startText{
+  margin-top: 50px;
   font-weight:bold;
   font-size:70px;
-  color: #43b641;
+  /* color: #43b641; */
+  background-image: linear-gradient(to right, rgb(62, 214, 77), rgb(83, 192, 235));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
   display: none;
+  
 }
 #inform{
   margin-top: 50px;
+}
+#restart{margin-top: 30px;
+  margin-top: 20px;
+  padding: 10px 15px;
+  display: grid;
+  text-align: center;
+  font-weight:bolder;
+  font-size:15px;
+  background-color: #55c739;
+  border: 2px solid #6f6f6f;
+  cursor: pointer;
+  color: #403f3f;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px gray;
+  display: none;
 }

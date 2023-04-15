@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="numbaseball.css">
 
 </head>
-<body>
+<body style="background-color: rgb(243, 255, 251);">
   <div class="joinAll">
   <div id="number">
   </div>
@@ -17,25 +17,27 @@
     <input id="digit4" name="selectDigit" type="radio" value="4"><label for="digit4">4자리</label>
   </div>
   <div>
-    <button id="start">게임 시작</button>
+    <button id="start">START</button>
   </div>
   <div id="startText">Game Start!</div>
   <div id="inputSet">
     <div id="inform">Guess Number :)</div>
-    <input id="input" type="text" placeholder="입력">
+    <input id="input" type="number" min='1' placeholder="ex) 123">
     <button id="submit" type="button">확인</button>
     </div>
-  </div>  
+  
   <!-- <div class="printResult" id="result"></div> -->
-</div>
+
 <table id='result'>
   <!-- <table style="border: 1px solid red; width:60%; height: 100px; margin: auto; text-align: center;"> -->
   <tr>
-    <th style="width: 15%; background-color:darkgray;">순서</th>
-    <th style="width: 30%; background-color:darkgray;">숫자</th>
-    <th style="background-color:darkgray;">결과</th>
+    <th style="width: 15%; background-color:rgb(129, 194, 111);">순서</th>
+    <th style="width: 30%; background-color:rgb(129, 194, 111);">숫자</th>
+    <th style="background-color:rgb(129, 194, 111);">결과</th>
   </tr>
 </table>
+  <button id="restart" type="reset">RESTART</button>
+</div>
 </body>
 <script src="numbaseball.js"></script>
 </html>
